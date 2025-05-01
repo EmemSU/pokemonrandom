@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(350, 83%, 73%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(235, 30, 47);
+    width: 100%;
+    h1{
+        margin: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blue;
+        text-align: center;
+    }
+}
+
+footer{
+    background-color: rgb(235, 30, 47);
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+}
+
+.fetchbutt{
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgb(255, 119, 0);
+    font-size: 3rem;
+    margin: 20px;
+    padding: 5px 10px;;
+}
+
+.pokePic{
+    background: linear-gradient(180deg, pink, aliceblue);
+    width: 80%;
+    margin: 0.5px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0,0%,0%,0.5);
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 50%;
+        border: 5px red solid;
+        border-radius: 50%;
+    }
+}

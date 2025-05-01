@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Click button for random pokemon</h1>
+    </header>
+
+    <div class="myform">
+      <form id="fetchRand">
+        <div class="buttoner">
+          <button type="submit" name="fetchbutt" class="fetchbutt">Fetch Pokemon</button>
+        </div>
+      </form>
+  
+    </div>
+    
+    
+    
+    <div class="pokePic">
+      <h2 id="message">Thy pokemon will appear here</h3>
+      <img src="" alt="pokemon_pic" id="pokemonPic" style="display: none;">
+      <h3 id="pokeAPIname" style="display: none;"></h3>
+    </div>
+
+    <div class="extra-instructions">
+      <p>Check the console for the data</p>
+      <p>Note: this program is crude, it doesn't catch errors</p>
+    </div>
+
+    <footer>
+      &copy; Emem Umoh 2025
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
